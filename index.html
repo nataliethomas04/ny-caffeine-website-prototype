@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NY Caffeine</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="navbar">
+    <div class="brand">
+      <img src="images/logo.jpg" alt="NY Caffeine logo">
+      <span>NY Caffeine</span>
+    </div>
+
+    <nav>
+      <a href="#menu">Menu</a>
+      <a href="#locations">Locations</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <p class="small-title">More Than Just Coffee</p>
+      <h1>Fresh coffee, colorful refreshers, and cozy café vibes.</h1>
+      <p>
+        At NY Caffeine, we're passionate about crafting the perfect cup of joe. 
+        From our meticulously sourced beans to our expertly trained baristas, quality is our top priority. 
+        Every sip promises an unforgettable experience.
+      </p>
+
+      <div class="buttons">
+        <a href="#menu" class="btn">View Menu</a>
+        <a href="#locations" class="btn-outline">Find a Location</a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <img src="images/drinklineup.png" alt="NY Caffeine drinks">
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <img src="images/storeinside.jpg" alt="Inside NY Caffeine">
+
+    <div class="about-text">
+      <p class="small-title">Our Café</p>
+      <h2>A warm place for coffee, comfort, and community.</h2>
+      <p>
+        From iced coffees and refreshers to pastries and quick bites, NY Caffeine
+        brings a cozy local café experience with bright drinks and friendly energy.
+      </p>
+    </div>
+  </section>
+
+  <section id="menu" class="menu">
+  <h2 class="small-title">Menu</h2>
+
+  <div class="cards">
+
+    <div class="card" onclick="toggleMenu(this)">
+      <img src="images/drinks2.png" alt="Most ordered drinks">
+      <h3>Most Ordered</h3>
+      <p>Customer favorites you'll keep coming back for.</p>
+
+      <div class="menu-dropdown">
+        <div class="mini-item">
+          <img src="images/macchiato.png" alt="Caramel Macchiato">
+          <div>
+            <h4>Caramel Macchiato</h4>
+            <p>$7.80</p>
+          </div>
+        </div>
+
+        <div class="mini-item">
+          <img src="images/matcha.png" alt="Iced Coffee">
+          <div>
+            <h4>Iced Matcha Latte</h4>
+            <p>$7.99</p>
+          </div>
+        </div>
+    
+        <div class="mini-item">
+          <img src="images/frenchtoast.png" alt="Iced Coffee">
+          <div>
+            <h4>French Toast Latte</h4>
+            <p>$7.99</p>
+          </div>
+        </div>
+
+        <div class="mini-item">
+          <img src="images/icedlatte.png" alt="Iced Coffee">
+          <div>
+            <h4>Iced Latte</h4>
+            <p>$7.60</p>
+          </div>
+        </div>
+
+        <div class="mini-item">
+          <img src="images/vanillachai.png" alt="Iced Coffee">
+          <div>
+            <h4>Iced Vanilla Chai Latte</h4>
+            <p>$7.99</p>
+          </div>
+        </div>
+
+        <div class="mini-item">
+          <img src="images/food.png" alt="Iced Coffee">
+          <div>
+            <h4>Cookie Dough Croissant</h4>
+            <p>$7.99</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card" onclick="toggleMenu(this)">
+      <img src="images/iceddrinks.png" alt="Iced drinks">
+      <h3>Iced Drinks</h3>
+      <p>Chilled, smooth and refreshing every time.</p>
+
+      <div class="menu-dropdown">
+        <div class="mini-item">
+          <img src="images/iceddrinks.png" alt="Iced Latte">
+          <div>
+            <h4>Iced Latte</h4>
+            <p>$5.95</p>
+          </div>
+        </div>
+
+        <div class="mini-item">
+          <img src="images/drinks2.png" alt="Iced Caramel Coffee">
+          <div>
+            <h4>Iced Caramel Coffee</h4>
+            <p>$6.25</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" onclick="toggleMenu(this)">
+      <img src="images/frappe.png" alt="Frappes">
+      <h3>Frappes</h3>
+      <p>Creamy blended drinks, with or without caffeine.</p>
+
+      <div class="menu-dropdown">
+        <div class="mini-item">
+          <img src="images/frappe.png" alt="Caramel Frappe">
+          <div>
+            <h4>Caramel Frappe</h4>
+            <p>$6.95</p>
+          </div>
+        </div>
+
+        <div class="mini-item">
+          <img src="images/frappe.png" alt="Decaf Frappe">
+          <div>
+            <h4>Decaf Frappe</h4>
+            <p>$6.95</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" onclick="toggleMenu(this)">
+      <img src="images/hotdrink.png" alt="Hot drinks">
+      <h3>Hot Drinks</h3>
+      <p>Warm, comforting classics made fresh.</p>
+
+      <div class="menu-dropdown">
+        <div class="mini-item">
+          <img src="images/hotdrink.png" alt="Hot Latte">
+          <div>
+            <h4>Hot Latte</h4>
+            <p>$5.75</p>
+          </div>
+        </div>
+
+        <div class="mini-item">
+          <img src="images/hot-macchiato.png" alt="Caramel Macchiato">
+          <div>
+            <h4>Caramel Macchiato</h4>
+            <p>$7.15</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" onclick="toggleMenu(this)">
+      <img src="images/drink4.png" alt="Lemonade">
+      <h3>Lemonade</h3>
+      <p>Bright, fruity, and perfectly refreshing.</p>
+
+      <div class="menu-dropdown">
+        <div class="mini-item">
+          <img src="images/drink4.png" alt="Fruit Lemonade">
+          <div>
+            <h4>Fruit Lemonade</h4>
+            <p>$5.95</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" onclick="toggleMenu(this)">
+      <img src="images/milkshake.png" alt="Milkshakes">
+      <h3>Milkshakes</h3>
+      <p>Thick, creamy, and sweet to the last sip.</p>
+
+      <div class="menu-dropdown">
+        <div class="mini-item">
+          <img src="images/milkshake.png" alt="Strawberry Milkshake">
+          <div>
+            <h4>Strawberry Milkshake</h4>
+            <p>$6.95</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" onclick="toggleMenu(this)">
+      <img src="images/breakfast.png" alt="Breakfast">
+      <h3>Breakfast</h3>
+      <p>Quick, satisfying bites to start your day.</p>
+
+      <div class="menu-dropdown">
+        <div class="mini-item">
+          <img src="images/breakfast.png" alt="Breakfast Croissant">
+          <div>
+            <h4>Breakfast Croissant</h4>
+            <p>$7.95</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" onclick="toggleMenu(this)">
+      <img src="images/crepes.png" alt="Specialty Crepes">
+      <h3>Specialty Crepes</h3>
+      <p>Freshly made and filled with sweet and savory flavors.</p>
+
+      <div class="menu-dropdown">
+        <div class="mini-item">
+          <img src="images/crepes.png" alt="Chocolate Banana Crepe">
+          <div>
+            <h4>Chocolate Banana Crepe</h4>
+            <p>$8.95</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" onclick="toggleMenu(this)">
+      <img src="images/food.png" alt="Pastries">
+      <h3>Pastries</h3>
+      <p>Perfect pairings for coffee, refreshers, or an afternoon stop.</p>
+
+      <div class="menu-dropdown">
+        <div class="mini-item">
+          <img src="images/food.png" alt="Croissant">
+          <div>
+            <h4>Croissant</h4>
+            <p>$4.50</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" onclick="toggleMenu(this)">
+      <img src="images/tacos.png" alt="Tacos">
+      <h3>Tacos</h3>
+      <p>Flavor that hits different, perfect texture, and a unique touch.</p>
+
+      <div class="menu-dropdown">
+        <div class="mini-item">
+          <img src="images/tacos.png" alt="The Dodger Taco">
+          <div>
+            <h4>The Dodger Taco</h4>
+            <p>$5.95</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <section class="gallery">
+    <p class="small-title">More Than Just Coffee</p>
+    <h2>Only at NY Caffeine</h2>
+
+    <div class="gallery-grid">
+      <img src="images/drinks3.png" alt="NY Caffeine drinks">
+      <img src="images/drinks5.png" alt="Colorful drinks">
+      <img src="images/food2.png" alt="Dessert treats">
+    </div>
+  </section>
+
+  <section id="locations" class="locations">
+    <p class="small-title">Visit Us</p>
+    <h2>Locations</h2>
+
+    <div class="location-grid">
+        <a href="https://www.google.com/maps/search/Franklin+Square+NY+Caffeine" target="_blank" class="location-card">
+    📍 Franklin Square, NY
+  </a>
+
+  <a href="https://www.google.com/maps/search/Westbury+NY+Caffeine" target="_blank" class="location-card">
+    📍 Westbury, NY
+  </a>
+
+  <a href="https://www.google.com/maps/search/East+Meadow+NY+Caffeine" target="_blank" class="location-card">
+    📍 East Meadow, NY
+  </a>
+
+  <a href="https://www.google.com/maps/search/Bridgeport+CT+NY+Caffeine" target="_blank" class="location-card">
+    📍 Bridgeport, CT
+  </a>
+
+  </section>
+
+  <section class="security">
+    <h2>Built for future growth</h2>
+    <p>
+      This sample website is mobile-friendly, easy to update, and ready for future
+      features like secure online ordering, contact forms, and customer updates.
+    </p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Follow NY Caffeine</h2>
+    <p>Stay updated with new drinks, café posts, and location updates.</p>
+    <a href="https://www.instagram.com/nycaffeine1" target="_blank" class="btn">
+      Visit Instagram
+    </a>
+  </section>
+
+  <footer>
+    <p>Sample website concept created by Natalie Thomas</p>
+  </footer>
+
+<script>
+  function toggleMenu(card) {
+    card.classList.toggle("open");
+  }
+</script>
+</body>
+</html>
