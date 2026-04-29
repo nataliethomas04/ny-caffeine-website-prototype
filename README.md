@@ -1,10 +1,15 @@
-NY Caffeine Website Prototype
+# NY Caffeine Website Prototype
+Live Demo: https://nycaffeine-preview.vercel.app
 
+## Preview
+
+![Homepage](images/homepagess.png)
+![Menu](images/menuss.png)
 NY Caffeine is a multi-location small business with a location nearby my house and I noticed they don't have a website.
 
 The goal of this project was to design a easy to use, mobile-friendly website where customers can view their menu, find locations, etc. to further the cafè's growth.
 
-Features 
+# Features 
 -responsive landing page
 -interactive menu (click-to-open)
 -product images, prices and descriptions
@@ -13,7 +18,7 @@ Features
 -hover animations and UI effects
 -inspired by their exisiting cafè aesthetic
 
-Security 
+# Security 
 This project was also reviewed from a basic web security perspective. 
 
 -HTTPS ready deplyoment
@@ -24,14 +29,14 @@ This project was also reviewed from a basic web security perspective.
 -no payment handling
 -ready for future contact and online ordering 
 
-Tech Used
+# Tech Used
 -HTML
 -CSS
 -JS
 -Git
 -Github
 
-Future Improvemnts
+# Future Improvemnts
 -fully developed and realistic menu data
 -online ordering feature
 -add secure contact form
