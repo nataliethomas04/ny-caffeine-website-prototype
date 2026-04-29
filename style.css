@@ -332,37 +332,73 @@ footer {
 }
 
 @media (max-width: 900px) {
-  .hero,
-  .about,
-  .cards {
-    grid-template-columns: 1fr;
+
+  .navbar {
+    flex-direction: column;
+    padding: 14px 5%;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+
+  nav a {
+    margin-left: 0;
+    font-size: 13px;
+  }
+
+  .brand {
+    font-size: 22px;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 6%;
   }
 
   .hero-text {
     width: 100%;
-    text-align: center;
   }
 
   .hero h1 {
     font-size: 38px;
   }
 
-  .hero-image img,
+  .hero-image {
+    width: 100%;
+    margin-top: 25px;
+  }
+
+  .hero-image img {
+    width: 90%;
+    max-width: 360px;
+    height: 360px;
+    object-fit: cover;
+    margin: auto;
+    display: block;
+    transform: none;
+  }
+
+  .about {
+    flex-direction: column;
+  }
+
   .about img {
     width: 100%;
     height: auto;
   }
 
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .gallery-grid,
   .location-grid {
     grid-template-columns: 1fr;
-  }
-
-  nav {
-    display: none;
-  }
-
-  .brand {
-    font-size: 22px;
   }
 }

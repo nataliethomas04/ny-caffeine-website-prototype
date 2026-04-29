@@ -1,5 +1,6 @@
 # NY Caffeine Website Prototype
-Live Demo: https://nycaffeine-preview.vercel.app
+Live Demo: https://ny-caffeine-website-prototype.vercel.app
+GitHub: https://github.com/nataliethomas04/ny-caffeine-website-prototype
 
 ## Preview
 
